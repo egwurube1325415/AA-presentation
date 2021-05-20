@@ -1,19 +1,50 @@
+body {
+    background-color: rgb(247, 244, 241);
+}
+
 .car {
     border: 2px solid #005DAA;
     margin: 20px 20px 20px 20px;
+    padding-left: 60px;
+    background-color: #005DAA;
+    color: rgb(248, 243, 237);
+}
+
+.car .car-link {
+    border: 2px solid #005DAA;
+    margin: 20px 20px 20px 5px;
     padding: 10px;
+    background-color: rgb(247, 244, 241);
+    width: 50%;
+    text-align: center;
 }
 
 .air {
     border: 2px solid #005DAA;
     margin: 20px 20px 20px 20px;
+    padding-left: 60px;
+}
+.air .air-link {
+    border: 2px solid #005DAA;
+    margin: 20px 20px 20px 5px;
     padding: 10px;
+    background-color: rgb(247, 244, 241);
+    width: 50%;
+    text-align: center;
 }
 
 .LetsChat {
     border: 2px solid #005DAA;
     margin: 20px 20px 20px 20px;
+    padding-left: 60px;
+}
+.LetsChat .LetsChat-link {
+    border: 2px solid #005DAA;
+    margin: 20px 20px 20px 5px;
     padding: 10px;
+    background-color: rgb(247, 244, 241);
+    width: 50%;
+    text-align: center;
 }
 
 a {
@@ -21,12 +52,23 @@ a {
     text-align: center;
 }
 
-.extras .extras-additions {
-    display: block;
+.extra { 
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(247, 244, 241);
+    background-clip: border-box;    
 }
 
-.extras-additions {
+.card .extras-additions {
     display: inline;
     float: left;
-    margin:  20px 20px 20px 20px;
+}
+
+.holiday a{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #000;
 }

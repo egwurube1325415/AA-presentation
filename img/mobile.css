@@ -1,0 +1,32 @@
+.car {
+    border: 2px solid #005DAA;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+.air {
+    border: 2px solid #005DAA;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+.LetsChat {
+    border: 2px solid #005DAA;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+a {
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.extras .extras-additions {
+    display: block;
+}
+
+.extras-additions {
+    display: inline;
+    float: left;
+    margin:  20px 20px 20px 20px;
+}
